@@ -348,3 +348,6 @@ for i, label in enumerate(labels):
 
 plt.grid(True)
 st.pyplot(plt)
+
+st.markdown("set by A-N ")
+
