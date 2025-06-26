@@ -21,8 +21,9 @@ def _max_width_(prcnt_width:int = 75):
 
 
 # Title of the dashboard
-st.title("Twilio OTP Analysis Dashboard")
+st.title("Confidential - Fasset internal otp analysis")
 st.markdown("This dashboard provides an analysis of SMS delivery performance across different countries, error codes, and time periods. ")
+st.markdown("managed by product team")
 
 # Load the static Excel file
 data = pd.read_excel('Twillio 3 months (May - Aug).xlsx', header=1)
